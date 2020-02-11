@@ -47,8 +47,7 @@ namespace Clicker
                 mouse_event(MOUSEEVENTF_LEFTDOWN | MOUSEEVENTF_LEFTUP, (uint)goose.position.x, (uint)goose.position.y, 0, 0);
                 SetCursorPos(p.X, p.Y);
                 Thread.Sleep(100);
-            }
-            
+            }            
         }
     }
 }
